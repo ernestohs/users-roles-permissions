@@ -1,0 +1,22 @@
+{
+  "name": "users-roles-permissions",
+  "version": "0.0.1",
+  "description": "Simple application that handles users roles and permissions",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernestohs/users-roles-permissions.git"
+  },
+  "keywords": [
+    "front-end"
+  ],
+  "author": "Ernesto Herrera Salinas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ernestohs/users-roles-permissions/issues"
+  },
+  "homepage": "https://github.com/ernestohs/users-roles-permissions#readme"
+}
