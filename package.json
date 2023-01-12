@@ -4,7 +4,8 @@
   "description": "Simple application that handles users roles and permissions",
   "main": "index.ts",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "commit": "cz"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/ernestohs/users-roles-permissions/issues"
   },
-  "homepage": "https://github.com/ernestohs/users-roles-permissions#readme"
+  "homepage": "https://github.com/ernestohs/users-roles-permissions#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.6",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
